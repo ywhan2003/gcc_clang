@@ -1028,196 +1028,196 @@ int main(int argc, char** argv) {
     
     summarize("uint8_t lookup table small inplace", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
     
-    test_lut1( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table1 small");
-    test_lut2( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table2 small");
-    test_lut3( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table3 small");
-    test_lut4( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table4 small");
-    test_lut5( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table5 small");
-    test_lut6( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table6 small");
-    test_lut7( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table7 small");
-    test_lut8( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table8 small");
+    // test_lut1( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table1 small");
+    // test_lut2( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table2 small");
+    // test_lut3( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table3 small");
+    // test_lut4( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table4 small");
+    // test_lut5( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table5 small");
+    // test_lut6( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table6 small");
+    // test_lut7( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table7 small");
+    // test_lut8( inputData8, resultData8, SIZE_SMALL, myLUT8, "uint8_t lookup table8 small");
     
-    summarize("uint8_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
+    // summarize("uint8_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
 
 
-    iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
+//     iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
     
-    test_lut1( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table1 large inplace");
-    test_lut2( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table2 large inplace");
-    test_lut3( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table3 large inplace");
-    test_lut4( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table4 large inplace");
-    test_lut5( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table5 large inplace");
-    test_lut6( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table6 large inplace");
-    test_lut7( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table7 large inplace");
-    test_lut8( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table8 large inplace");
+//     test_lut1( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table1 large inplace");
+//     test_lut2( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table2 large inplace");
+//     test_lut3( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table3 large inplace");
+//     test_lut4( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table4 large inplace");
+//     test_lut5( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table5 large inplace");
+//     test_lut6( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table6 large inplace");
+//     test_lut7( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table7 large inplace");
+//     test_lut8( inputData8, inputData8, SIZE, myLUT8, "uint8_t lookup table8 large inplace");
     
-    summarize("uint8_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+//     summarize("uint8_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
     
-    test_lut1( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table1 large");
-    test_lut2( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table2 large");
-    test_lut3( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table3 large");
-    test_lut4( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table4 large");
-    test_lut5( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table5 large");
-    test_lut6( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table6 large");
-    test_lut7( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table7 large");
-    test_lut8( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table8 large");
+//     test_lut1( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table1 large");
+//     test_lut2( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table2 large");
+//     test_lut3( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table3 large");
+//     test_lut4( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table4 large");
+//     test_lut5( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table5 large");
+//     test_lut6( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table6 large");
+//     test_lut7( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table7 large");
+//     test_lut8( inputData8, resultData8, SIZE, myLUT8, "uint8_t lookup table8 large");
     
-    summarize("uint8_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
-
-
-
-// int8_t
-    iterations = base_iterations;
-
-    test_lut1( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table1 small inplace");
-    test_lut2( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table2 small inplace");
-    test_lut3( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table3 small inplace");
-    test_lut4( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table4 small inplace");
-    test_lut5( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table5 small inplace");
-    test_lut6( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table6 small inplace");
-    test_lut7( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table7 small inplace");
-    test_lut8( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table8 small inplace");
-    
-    summarize("int8_t lookup table small inplace", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
-    
-    test_lut1( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table1 small");
-    test_lut2( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table2 small");
-    test_lut3( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table3 small");
-    test_lut4( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table4 small");
-    test_lut5( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table5 small");
-    test_lut6( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table6 small");
-    test_lut7( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table7 small");
-    test_lut8( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table8 small");
-    
-    summarize("int8_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
-
-
-    iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
-    
-    test_lut1( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table1 large inplace");
-    test_lut2( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table2 large inplace");
-    test_lut3( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table3 large inplace");
-    test_lut4( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table4 large inplace");
-    test_lut5( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table5 large inplace");
-    test_lut6( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table6 large inplace");
-    test_lut7( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table7 large inplace");
-    test_lut8( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table8 large inplace");
-    
-    summarize("int8_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
-    
-    test_lut1( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table1 large");
-    test_lut2( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table2 large");
-    test_lut3( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table3 large");
-    test_lut4( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table4 large");
-    test_lut5( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table5 large");
-    test_lut6( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table6 large");
-    test_lut7( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table7 large");
-    test_lut8( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table8 large");
-    
-    summarize("int8_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+//     summarize("uint8_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
 
 
 
-// uint16_t
-    iterations = base_iterations;
+// // int8_t
+//     iterations = base_iterations;
 
-    test_lut1( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table1 small inplace");
-    test_lut2( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table2 small inplace");
-    test_lut3( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table3 small inplace");
-    test_lut4( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table4 small inplace");
-    test_lut5( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table5 small inplace");
-    test_lut6( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table6 small inplace");
-    test_lut7( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table7 small inplace");
-    test_lut8( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table8 small inplace");
+//     test_lut1( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table1 small inplace");
+//     test_lut2( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table2 small inplace");
+//     test_lut3( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table3 small inplace");
+//     test_lut4( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table4 small inplace");
+//     test_lut5( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table5 small inplace");
+//     test_lut6( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table6 small inplace");
+//     test_lut7( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table7 small inplace");
+//     test_lut8( (int8_t*)inputData8, (int8_t*)inputData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table8 small inplace");
     
-    summarize("uint16_t lookup table small inplace", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
+//     summarize("int8_t lookup table small inplace", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
     
-    test_lut1( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table1 small");
-    test_lut2( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table2 small");
-    test_lut3( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table3 small");
-    test_lut4( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table4 small");
-    test_lut5( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table5 small");
-    test_lut6( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table6 small");
-    test_lut7( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table7 small");
-    test_lut8( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table8 small");
+//     test_lut1( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table1 small");
+//     test_lut2( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table2 small");
+//     test_lut3( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table3 small");
+//     test_lut4( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table4 small");
+//     test_lut5( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table5 small");
+//     test_lut6( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table6 small");
+//     test_lut7( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table7 small");
+//     test_lut8( (int8_t*)inputData8, (int8_t*)resultData8, SIZE_SMALL, (int8_t*)(myLUT8+128), "int8_t lookup table8 small");
     
-    summarize("uint16_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
-
-
-    iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
-    
-    test_lut1( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table1 large inplace");
-    test_lut2( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table2 large inplace");
-    test_lut3( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table3 large inplace");
-    test_lut4( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table4 large inplace");
-    test_lut5( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table5 large inplace");
-    test_lut6( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table6 large inplace");
-    test_lut7( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table7 large inplace");
-    test_lut8( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table8 large inplace");
-    
-    summarize("uint16_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
-    
-    test_lut1( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table1 large");
-    test_lut2( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table2 large");
-    test_lut3( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table3 large");
-    test_lut4( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table4 large");
-    test_lut5( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table5 large");
-    test_lut6( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table6 large");
-    test_lut7( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table7 large");
-    test_lut8( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table8 large");
-    
-    summarize("uint16_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+//     summarize("int8_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
 
 
-// int16_t
-    iterations = base_iterations;
+//     iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
+    
+//     test_lut1( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table1 large inplace");
+//     test_lut2( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table2 large inplace");
+//     test_lut3( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table3 large inplace");
+//     test_lut4( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table4 large inplace");
+//     test_lut5( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table5 large inplace");
+//     test_lut6( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table6 large inplace");
+//     test_lut7( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table7 large inplace");
+//     test_lut8( (int8_t*)inputData8, (int8_t*)inputData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table8 large inplace");
+    
+//     summarize("int8_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+    
+//     test_lut1( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table1 large");
+//     test_lut2( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table2 large");
+//     test_lut3( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table3 large");
+//     test_lut4( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table4 large");
+//     test_lut5( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table5 large");
+//     test_lut6( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table6 large");
+//     test_lut7( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table7 large");
+//     test_lut8( (int8_t*)inputData8, (int8_t*)resultData8, SIZE, (int8_t*)(myLUT8+128), "int8_t lookup table8 large");
+    
+//     summarize("int8_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
 
-    test_lut1( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table1 small inplace");
-    test_lut2( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table2 small inplace");
-    test_lut3( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table3 small inplace");
-    test_lut4( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table4 small inplace");
-    test_lut5( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table5 small inplace");
-    test_lut6( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table6 small inplace");
-    test_lut7( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table7 small inplace");
-    test_lut8( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table8 small inplace");
-    
-    summarize("int16_t lookup table small inplace", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
-    
-    test_lut1( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table1 small");
-    test_lut2( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table2 small");
-    test_lut3( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table3 small");
-    test_lut4( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table4 small");
-    test_lut5( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table5 small");
-    test_lut6( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table6 small");
-    test_lut7( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table7 small");
-    test_lut8( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table8 small");
-    
-    summarize("int16_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
 
 
-    iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
+// // uint16_t
+//     iterations = base_iterations;
+
+//     test_lut1( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table1 small inplace");
+//     test_lut2( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table2 small inplace");
+//     test_lut3( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table3 small inplace");
+//     test_lut4( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table4 small inplace");
+//     test_lut5( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table5 small inplace");
+//     test_lut6( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table6 small inplace");
+//     test_lut7( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table7 small inplace");
+//     test_lut8( inputData16, inputData16, SIZE_SMALL, myLUT16, "uint16_t lookup table8 small inplace");
     
-    test_lut1( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table1 large inplace");
-    test_lut2( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table2 large inplace");
-    test_lut3( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table3 large inplace");
-    test_lut4( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table4 large inplace");
-    test_lut5( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table5 large inplace");
-    test_lut6( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table6 large inplace");
-    test_lut7( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table7 large inplace");
-    test_lut8( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table8 large inplace");
+//     summarize("uint16_t lookup table small inplace", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
     
-    summarize("int16_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+//     test_lut1( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table1 small");
+//     test_lut2( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table2 small");
+//     test_lut3( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table3 small");
+//     test_lut4( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table4 small");
+//     test_lut5( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table5 small");
+//     test_lut6( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table6 small");
+//     test_lut7( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table7 small");
+//     test_lut8( inputData16, resultData16, SIZE_SMALL, myLUT16, "uint16_t lookup table8 small");
     
-    test_lut1( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table1 large");
-    test_lut2( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table2 large");
-    test_lut3( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table3 large");
-    test_lut4( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table4 large");
-    test_lut5( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table5 large");
-    test_lut6( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table6 large");
-    test_lut7( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table7 large");
-    test_lut8( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table8 large");
+//     summarize("uint16_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
+
+
+//     iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
     
-    summarize("int16_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+//     test_lut1( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table1 large inplace");
+//     test_lut2( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table2 large inplace");
+//     test_lut3( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table3 large inplace");
+//     test_lut4( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table4 large inplace");
+//     test_lut5( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table5 large inplace");
+//     test_lut6( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table6 large inplace");
+//     test_lut7( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table7 large inplace");
+//     test_lut8( inputData16, inputData16, SIZE, myLUT16, "uint16_t lookup table8 large inplace");
+    
+//     summarize("uint16_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+    
+//     test_lut1( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table1 large");
+//     test_lut2( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table2 large");
+//     test_lut3( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table3 large");
+//     test_lut4( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table4 large");
+//     test_lut5( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table5 large");
+//     test_lut6( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table6 large");
+//     test_lut7( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table7 large");
+//     test_lut8( inputData16, resultData16, SIZE, myLUT16, "uint16_t lookup table8 large");
+    
+//     summarize("uint16_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+
+
+// // int16_t
+//     iterations = base_iterations;
+
+//     test_lut1( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table1 small inplace");
+//     test_lut2( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table2 small inplace");
+//     test_lut3( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table3 small inplace");
+//     test_lut4( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table4 small inplace");
+//     test_lut5( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table5 small inplace");
+//     test_lut6( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table6 small inplace");
+//     test_lut7( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table7 small inplace");
+//     test_lut8( (int16_t*)inputData16, (int16_t*)inputData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table8 small inplace");
+    
+//     summarize("int16_t lookup table small inplace", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
+    
+//     test_lut1( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table1 small");
+//     test_lut2( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table2 small");
+//     test_lut3( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table3 small");
+//     test_lut4( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table4 small");
+//     test_lut5( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table5 small");
+//     test_lut6( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table6 small");
+//     test_lut7( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table7 small");
+//     test_lut8( (int16_t*)inputData16, (int16_t*)resultData16, SIZE_SMALL, (int16_t*)(myLUT16+32768), "int16_t lookup table8 small");
+    
+//     summarize("int16_t lookup table small", SIZE_SMALL, iterations, kDontShowGMeans, kDontShowPenalty );
+
+
+//     iterations = std::max( 1, (int)(((uint64_t)base_iterations * SIZE_SMALL) / SIZE) );
+    
+//     test_lut1( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table1 large inplace");
+//     test_lut2( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table2 large inplace");
+//     test_lut3( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table3 large inplace");
+//     test_lut4( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table4 large inplace");
+//     test_lut5( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table5 large inplace");
+//     test_lut6( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table6 large inplace");
+//     test_lut7( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table7 large inplace");
+//     test_lut8( (int16_t*)inputData16, (int16_t*)inputData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table8 large inplace");
+    
+//     summarize("int16_t lookup table large inplace", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
+    
+//     test_lut1( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table1 large");
+//     test_lut2( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table2 large");
+//     test_lut3( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table3 large");
+//     test_lut4( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table4 large");
+//     test_lut5( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table5 large");
+//     test_lut6( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table6 large");
+//     test_lut7( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table7 large");
+//     test_lut8( (int16_t*)inputData16, (int16_t*)resultData16, SIZE, (int16_t*)(myLUT16+32768), "int16_t lookup table8 large");
+    
+//     summarize("int16_t lookup table large", SIZE, iterations, kDontShowGMeans, kDontShowPenalty );
 
 
 

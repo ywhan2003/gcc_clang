@@ -1,0 +1,24 @@
+##STARTING Version 1.0
+2024年 11月 24日 星期日 16:40:02 CST
+##CFlags: -I.
+##CPPFlags: -std=c++14 -I.
+##Executable Size:
+   text	   data	    bss	    dec	    hex	filename
+  18204	    728	48000064	48018996	2dcb634	./lookup_table
+./lookup_table 
+
+test                         description   absolute   operations   ratio with
+number                                     time       per second   test0
+
+ 0 "uint8_t lookup table1 small inplace"  10.43 sec   306.90 M     1.00
+ 1 "uint8_t lookup table2 small inplace"   9.16 sec   349.32 M     0.88
+ 2 "uint8_t lookup table3 small inplace"   7.42 sec   431.07 M     0.71
+ 3 "uint8_t lookup table4 small inplace"   6.25 sec   512.41 M     0.60
+ 4 "uint8_t lookup table5 small inplace"   4.84 sec   661.36 M     0.46
+ 5 "uint8_t lookup table6 small inplace"   4.62 sec   691.95 M     0.44
+ 6 "uint8_t lookup table7 small inplace"   7.88 sec   405.85 M     0.76
+ 7 "uint8_t lookup table8 small inplace"  14.64 sec   218.55 M     1.40
+
+Total absolute time for uint8_t lookup table small inplace: 65.25 sec
+2024年 11月 24日 星期日 16:41:08 CST
+##END Version 1.0
